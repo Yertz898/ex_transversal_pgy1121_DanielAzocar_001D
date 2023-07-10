@@ -1,5 +1,5 @@
 from os import system
-
+system('cls)
 asientos = [[0 for x in range(10)] for y in range(10)]
 asistentes = {}
 precio = [120000 if i < 21 else 80000 if i < 51 else 50000 for i in range(100)]
@@ -49,7 +49,7 @@ def ganancias_total():
     print(f"Ganancias totales: ${ganancias}")
 
 while True:
-    system('cls')
+    
    
     print("Entradas concierto de Michael Jam")
     print("1- Comprar entradas")
